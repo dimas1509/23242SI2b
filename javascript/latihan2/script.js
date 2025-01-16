@@ -1,4 +1,4 @@
-let data = ["Dimas", "ERICC", "Yuan"];
+let data = ["Dimas", "ERICC", "Yuan","rifqan","vincent","felix","steven"];
 let listMhs = document.getElementById("listMhs");
 
 data.forEach(showMahasiswa);
@@ -20,11 +20,11 @@ nama.innerHTML = localStorage.getItem("nama");
 localStorage.setItem("email", "dimas@test.com");
 
 //data membuat array berisi nilai baca dan codenya 
-let hobi = ["baca", "game", "code"];
+let hobi = ["baca", "game", "coding"];
 localStorage.setItem("hobi", hobi);
 localStorage.setItem("my hobi", JSON.stringify(hobi));
 
-// DATA OBJECT 
+// data object 
 let mhs = { npm: 2226240002, nama: "Dimas"};
 // cara mengaksesnya
 console.log(mhs.npm);
@@ -34,6 +34,8 @@ console.log(mhs.nama);
 let nilai = [
     {kode_mk : "SI0001", nama_mk: "Pemrograman Web"}, 
     {kode_mk: "SI0002", nama_mk: "Pengembangan Aplikasi Bergerak"},
+    {kode_mk: "SI0032", nama_mk: "Teknologi Berkembang"},
+    {kode_mk: "SI0023", nama_mk: "Sistem Basis Data"},
 ];
 // TAMPILKAN NAMA_MK PEMROGRANAN WEB 
 console.log(nilai[0].nama_mk);
